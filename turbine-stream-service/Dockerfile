@@ -1,4 +1,5 @@
-FROM java:8-jre
+FROM docker-registry-idc01-sz.cloudtogo.cn/cloudtogo/openjdk:8-jre
+#FROM java:8-jre
 MAINTAINER Chi Dov <d.chiproeng@gmail.com>
 
 ADD ./target/turbine-stream-service.jar /app/

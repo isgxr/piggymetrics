@@ -1,4 +1,5 @@
-FROM mongo:3
+FROM docker-registry-idc01-sz.cloudtogo.cn/cloudtogo/mongo:3
+#FROM mongo:3
 MAINTAINER Alexander Lukyanchikov <sqshq@sqshq.com>
 
 ADD init.sh /init.sh
