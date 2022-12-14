@@ -1,7 +1,7 @@
 FROM docker-registry-idc01-sz.cloudtogo.cn/cloudtogo/openjdk:8-jre
 #FROM java:8-jre
 # ADD要求仓库中dockersfile文件必须执行：WORKDIR /workspace
-WORKDIR /workspace
+#WORKDIR /workspace
 
 MAINTAINER Alexander Lukyanchikov <sqshq@sqshq.com>
 
